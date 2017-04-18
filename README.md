@@ -1,6 +1,6 @@
 # Using Adaptive icons in the Android O Developer Preview
 
-** This documentation is subject to change at any time **
+**This documentation is subject to change at any time**
 
 
 I found the google documentation on creating an application with adaptive icons quite lacking(and incorrect). This guide will hopefully serve as some better documentation.
@@ -21,10 +21,10 @@ it should have the following contents
         <foreground android:drawable="@mipmap/ic_foreground"/>
     </adaptive-icon>
     
-** NOTE: the ic_foreground.png goes in the /app/src/main/res/mipmap folder **
+**NOTE: the ic_foreground.png goes in the /app/src/main/res/mipmap folder**
    ![mipmap folder](https://raw.githubusercontent.com/kfechter/Adaptive-Icons-Help/master/Screenshots/mipmapfolder.PNG)
    
-** NOTE: with ic_background as a color, a color with the name ic_background should be added to /app/src/main/res/values/colors **
+**NOTE: a color with the name ic_background should be added to /app/src/main/res/values/colors**
 
     <?xml version="1.0" encoding="utf-8"?>
     <resources>
