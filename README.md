@@ -9,7 +9,7 @@ I found the google documentation on creating an application with adaptive icons 
    If you already have a project, you can skip this step
    
 #### Step 2 - Add a mipmap-anydpi and mipmap folder to the /app/src/main/res/ folder of your project
-   ![alt tag](https://raw.githubusercontent.com/kfechter/Adaptive-Icons-Help/master/Screenshots/resfolder.PNG)
+   ![res folder](https://raw.githubusercontent.com/kfechter/Adaptive-Icons-Help/master/Screenshots/resfolder.PNG)
    
    
 #### Step 3 - create a file called ic_launcher.xml in the /app/src/main/res/mipmap-anydpi folder.
@@ -22,9 +22,16 @@ it should have the following contents
     </adaptive-icon>
     
 ** NOTE: the ic_foreground.png goes in the /app/src/main/res/mipmap folder **
-
+   ![mipmap folder](https://raw.githubusercontent.com/kfechter/Adaptive-Icons-Help/master/Screenshots/mipmapfolder.PNG)
+   
 ** NOTE: with ic_background as a color, a color with the name ic_background should be added to /app/src/main/res/values/colors **
 
-At this point, an app targeting android O should use the new icon resource.
+    <?xml version="1.0" encoding="utf-8"?>
+    <resources>
+          <color name="colorPrimary">#3F51B5</color>
+          <color name="colorPrimaryDark">#303F9F</color>
+          <color name="colorAccent">#FF4081</color>
+          <color name="ic_background">#555555</color>
+    </resources>
 
-// TODO: Add Screenshots
+At this point, an app targeting android O should use the new icon resource.
