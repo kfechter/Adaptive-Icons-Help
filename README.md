@@ -21,7 +21,7 @@ it should have the following contents
         <foreground android:drawable="@mipmap/ic_foreground"/>
     </adaptive-icon>
     
-**NOTE: the ic_foreground.png goes in the /app/src/main/res/mipmap folder**
+**NOTE: the ic_foreground.png goes in the /app/src/main/res/mipmap folder**     
    ![mipmap folder](https://raw.githubusercontent.com/kfechter/Adaptive-Icons-Help/master/Screenshots/mipmapfolder.PNG)
    
 **NOTE: a color with the name ic_background should be added to /app/src/main/res/values/colors**
