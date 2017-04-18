@@ -20,6 +20,7 @@ it should have the following contents
     </adaptive-icon>
     
 ** NOTE: the ic_foreground.png goes in the /app/src/main/res/mipmap folder **
+
 ** NOTE: with ic_background as a color, a color with the name ic_background should be added to /app/src/main/res/values/colors **
 
 At this point, an app targeting android O should use the new icon resource.
