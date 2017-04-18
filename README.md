@@ -9,7 +9,9 @@ I found the google documentation on creating an application with adaptive icons 
    If you already have a project, you can skip this step
    
 #### Step 2 - Add a mipmap-anydpi and mipmap folder to the /app/src/main/res/ folder of your project
-
+   ![alt tag](https://raw.githubusercontent.com/kfechter/Adaptive-Icons-Help/master/screenshots/resfolder.png)
+   
+   
 #### Step 3 - create a file called ic_launcher.xml in the /app/src/main/res/mipmap-anydpi folder.
 it should have the following contents
 
