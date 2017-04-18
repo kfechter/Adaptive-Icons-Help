@@ -13,7 +13,7 @@ I found the google documentation on creating an application with adaptive icons 
    
    
 #### Step 3 - create a file called ic_launcher.xml in the /app/src/main/res/mipmap-anydpi folder.
-it should have the following contents
+**it should have the following contents**
 
     <?xml version="1.0" encoding="utf-8"?>
     <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
@@ -22,6 +22,7 @@ it should have the following contents
     </adaptive-icon>
     
 **NOTE: the ic_foreground.png goes in the /app/src/main/res/mipmap folder**     
+
    ![mipmap folder](https://raw.githubusercontent.com/kfechter/Adaptive-Icons-Help/master/Screenshots/mipmapfolder.PNG)
    
 **NOTE: a color with the name ic_background should be added to /app/src/main/res/values/colors**
