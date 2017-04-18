@@ -10,7 +10,7 @@ I found the google documentation on creating an application with adaptive icons 
    
 #### Step 2 - Add a mipmap-anydpi and mipmap folder to the /app/src/main/res/ folder of your project
 
-#### Step 3 - create a file called ic_launcher.xml to the /app/src/main/res/mipmap-anydpi folder.
+#### Step 3 - create a file called ic_launcher.xml in the /app/src/main/res/mipmap-anydpi folder.
 it should have the following contents
 
     <?xml version="1.0" encoding="utf-8"?>
