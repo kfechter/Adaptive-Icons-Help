@@ -12,8 +12,8 @@ I found the google documentation on creating an application with adaptive icons 
    ![res folder](https://raw.githubusercontent.com/kfechter/Adaptive-Icons-Help/master/Screenshots/resfolder.PNG)
    
    
-#### Step 3 - create a file called ic_launcher.xml in the /app/src/main/res/mipmap-anydpi folder.
-**it should have the following contents**
+#### Step 3 - Create a file called ic_launcher.xml in the /app/src/main/res/mipmap-anydpi folder.
+**It should have the following contents:**
 
     <?xml version="1.0" encoding="utf-8"?>
     <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
@@ -35,4 +35,10 @@ I found the google documentation on creating an application with adaptive icons 
           <color name="ic_background">#555555</color>
     </resources>
 
-At this point, an app targeting android O should use the new icon resource.
+At this point, an app targeting Android O (`buildToolsVersion 26.0.0`+) should use the new icon resource.
+
+#### Step 4 - Working with legacy devices
+
+Most apps will also need to run on pre-O Android devices, which do not have support for adaptive icons. The built in Android 3.0 Adaptive Icon Wizard will not perform the following step, but it is essential for legacy support.
+
+Rename the `mipmap-anydpi` folder to `mipmap-anydpi-v26`, so that only newer versions of Android try to use the adaptive icons. Launcher icons can then be put in the relevant density folder as normal.
