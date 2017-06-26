@@ -5,7 +5,7 @@
 
 I found the google documentation on creating an application with adaptive icons quite lacking(and incorrect). This guide will hopefully serve as some better documentation.
 
-#### Step 1 - Create a project targinting the Android O preview in android studio
+#### Step 1 - Create a project targeting the Android O preview in android studio
    If you already have a project, you can skip this step
    
 #### Step 2 - Add a mipmap-anydpi and mipmap folder to the /app/src/main/res/ folder of your project
