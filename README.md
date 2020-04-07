@@ -43,3 +43,5 @@ At this point, an app targeting Android O (`buildToolsVersion 26.0.0`+) should u
 Most apps will also need to run on pre-O Android devices, which do not have support for adaptive icons. The built in Android 3.0 Adaptive Icon Wizard will not perform the following step, but it is essential for legacy support.
 
 Rename the `mipmap-anydpi` folder to `mipmap-anydpi-v26`, so that only newer versions of Android try to use the adaptive icons. Launcher icons can then be put in the relevant density folder as normal.
+
+sfasdfjlaksdjflajsdlfjasldkjf new stuff
