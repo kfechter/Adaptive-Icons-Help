@@ -1,6 +1,7 @@
 # Using Adaptive icons in the Android O Developer Preview
 
 **This documentation is subject to change at any time**
+**This Documentation will most likely not be updated, and will remain only as a reference**
 
 
 I found the google documentation on creating an application with adaptive icons quite lacking(and incorrect). This guide will hopefully serve as some better documentation.
